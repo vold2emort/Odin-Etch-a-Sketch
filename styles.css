@@ -1,0 +1,18 @@
+#container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    flex-direction: column;
+}
+
+#container>div.row {
+    flex:auto;
+    display: flex;
+    background-color: #DCE2F0;
+}
+
+#container>div.row>div.column {
+    flex: auto;
+    border: 1px solid black;
+}
